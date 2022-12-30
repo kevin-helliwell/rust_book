@@ -1,3 +1,5 @@
 guessing_game/target/
 hello_cargo/target/
+hello_cargo/target/debug
 guessing_game/target/.rustc_info.json
+guessing_game/target/debug
