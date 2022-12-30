@@ -1,3 +1,5 @@
+data_types/target
+data_types/target/debug
 guessing_game/target/
 guessing_game/target/debug
 hello_cargo/target/
