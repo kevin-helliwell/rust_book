@@ -3,32 +3,32 @@ use std::io;
 fn main() {
     // // Numeric Operations
 
-    let x = 2.0; // f64 (floating point 64 bit: double-precision float)
+    let _x = 2.0; // f64 (floating point 64 bit: double-precision float)
 
-    let y: f32 = 3.0; // f32 (floating point 32 bit: single-precision float)
+    let _y: f32 = 3.0; // f32 (floating point 32 bit: single-precision float)
 
-    let sum = 5 + 10; // addition
+    let _sum = 5 + 10; // addition
 
-    let difference = 95.5 - 4.3; // subtraction
+    let _difference = 95.5 - 4.3; // subtraction
 
-    let product = 4 * 30; // multiplication
+    let _product = 4 * 30; // multiplication
 
-    let quotient = 56.7 / 32.2; // division
-    let truncated = -5 / 3; // Results in -1
+    let _quotient = 56.7 / 32.2; // division
+    let _truncated = -5 / 3; // Results in -1
 
-    let remainder = 43 % 5; // mod
+    let _remainder = 43 % 5; // mod
 
     // // The Boolean Type
 
-    let t = true;
+    let _t = true;
 
-    let f: bool = false; // with explicit type annotation
+    let _f: bool = false; // with explicit type annotation
 
     // // The Character Type
 
-    let c = 'z';
-    let z: char = 'Z'; // with explicit type annotation
-    let heart_eyed_cat = '😻';
+    let _c = 'z';
+    let _z: char = 'Z'; // with explicit type annotation
+    let _heart_eyed_cat = '😻';
 
     // // Compound Types
 
@@ -36,23 +36,23 @@ fn main() {
 
     let tup: (i32, f64, u8) = (500, 6.4, 1);
 
-    let (x, y, z) = tup;
+    let (_x, _y, _z) = tup;
 
-    println!("The value of y is: {y}");
+    println!("The value of y is: {_y}");
 
-    let x: (i32, f64, u8) = (500, 6.4, 1);
+    let _x: (i32, f64, u8) = (500, 6.4, 1);
 
-    let five_hundred = x.0;
+    let _five_hundred = _x.0;
 
-    let six_point_four = x.1;
+    let _six_point_four = _x.1;
 
-    let one = x.2;
+    let _one = _x.2;
 
     // // The Array Type
 
-    let a = [1, 2, 3, 4, 5];
+    let _a = [1, 2, 3, 4, 5];
 
-    let months = [
+    let _months = [
         "January",
         "February",
         "March",
@@ -67,18 +67,18 @@ fn main() {
         "December",
     ];
 
-    let a: [i32; 5] = [1, 2, 3, 4, 5];
+    let _a: [i32; 5] = [1, 2, 3, 4, 5];
 
-    let a = [3; 5]; // identical to a = [3, 3, 3, 3, 3];
+    let _a = [3; 5]; // identical to a = [3, 3, 3, 3, 3];
 
     // // Invalid Array Element Access
 
-    let a = [1, 2, 3, 4, 5];
+    let _a = [1, 2, 3, 4, 5];
 
-    let first = a[0];
-    let second = a[1];
+    let _first = _a[0];
+    let _second = _a[1];
 
-    let a = [1, 2, 3, 4, 5];
+    let _a = [1, 2, 3, 4, 5];
 
     println!("Please enter an array index.");
 
@@ -93,7 +93,7 @@ fn main() {
         .parse()
         .expect("Index entered was not a number");
 
-    let element = a[index];
+    let element = _a[index];
 
     println!("The value of the element at index {index} is: {element}");
 
