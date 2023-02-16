@@ -8,3 +8,4 @@ variables/target
 variables/target/debug
 functions/target
 functions/debug
+functions/target/.rustc_info.json
