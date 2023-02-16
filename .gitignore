@@ -6,3 +6,5 @@ hello_cargo/target/
 hello_cargo/target/debug
 variables/target
 variables/target/debug
+functions/target
+functions/debug
